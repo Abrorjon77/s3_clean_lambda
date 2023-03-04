@@ -80,6 +80,6 @@ resource "aws_cloudwatch_event_rule" "s3_cleanup" {
 resource "aws_cloudwatch_event_target" "s3_cleanup" {
   target_id = "s3_cleanup"
   arn       = aws_lambda_function.s3_cleanup.arn
-  rule      = aws_cloudwatch_event_rule.s3_cleanup.name # <-- Add this line
+  rule      = aws_cloudwatch_event_rule.s3_cleanup.name 
 }
 
