@@ -1,6 +1,6 @@
 variable "bucket_name" {
-  default = "abrorjon-python-test-bucket"
+  default = ""
 }
-variable "bucket_name" {
-  default = 
+variable "arn_my_sns_topic" {
+  default = ""
 }
