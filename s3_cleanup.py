@@ -19,7 +19,7 @@ BUCKET_NAME = 'my-s3-bucket'
 ALERT_THRESHOLD_HOURS = 24
 
 # Set the ARN of the SNS topic to send notifications to
-SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:123456789012:my-sns-topic'
+SNS_TOPIC_ARN = 'arn_my_sns_topic'
 
 
 # Create a client object for interacting with S3
