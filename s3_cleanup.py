@@ -18,6 +18,10 @@ BUCKET_NAME = 'my-s3-bucket'
 # Set the threshold for alerting the DevOps team in hours
 ALERT_THRESHOLD_HOURS = 24
 
+# Set the ARN of the SNS topic to send notifications to
+SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:123456789012:my-sns-topic'
+
+
 # Create a client object for interacting with S3
 s3 = boto3.client('s3')
 
